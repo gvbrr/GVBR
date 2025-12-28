@@ -14,7 +14,7 @@ body {
 
 /* TOPO */
 .topo {
-    background-color: #000000;
+    background-color: #000000; /* alterado para preto */
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #222;
@@ -23,27 +23,6 @@ body {
 .topo h1 {
     font-size: 32px;
     color: #ffffff;
-}
-
-/* MENU DE NAVEGAÇÃO */
-nav {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-nav a {
-    color: #ffffff;           /* cor inicial branca */
-    text-decoration: none;    /* sem sublinhado */
-    font-weight: bold;
-    padding: 5px 10px;
-    transition: all 0.3s;     /* animação suave */
-}
-
-nav a:hover {
-    color: #00bfff;           /* muda para azul claro ao passar o mouse */
-    text-decoration: underline; /* sublinha para indicar clicável */
 }
 
 /* CONTEÚDO */
@@ -58,8 +37,8 @@ main {
     display: inline-block;
     margin-bottom: 25px;
     padding: 14px 22px;
-    background-color: #000000;
-    color: #000000;
+    background-color: #000000; /* alterado para preto */
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
@@ -68,7 +47,7 @@ main {
 }
 
 .discord-btn:hover {
-    background-color: #eaeaea;
+    background-color: #1a1a1a; /* hover mais claro, mas ainda preto/escuro */
 }
 
 /* LAYOUT */
@@ -102,7 +81,7 @@ main {
 
 /* LINKS DAS CATEGORIAS (BRANCOS) */
 .regras a {
-    color: #ffffff;          /* remove azul */
+    color: #ffffff;          
     font-weight: bold;
     text-decoration: none;
 }
@@ -141,5 +120,3 @@ footer {
         flex-direction: column;
     }
 }
-
-

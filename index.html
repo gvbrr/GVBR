@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <title>GVBR - Regras Oficiais</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/gvbr.png">
+
     <style>
-        /* CSS básico para tornar toda a caixa clicável e visualmente agradável */
         ul {
             list-style: none;
             padding: 0;
@@ -17,7 +16,7 @@
             display: block;
             text-decoration: none;
             color: white;
-            background-color: #000000; /* cinza/preto */
+            background-color: #000000;
             padding: 15px;
             margin-bottom: 10px;
             border-radius: 8px;
@@ -25,7 +24,7 @@
         }
 
         li a:hover {
-            background-color: #696969; /* cinza mais escuro para hover */
+            background-color: #696969;
         }
 
         li a span {
@@ -45,38 +44,38 @@
         header.topo {
             text-align: center;
             padding: 20px 0;
-            background-color: #000000; /* preto */
+            background-color: #000000;
         }
 
         section.layout {
             display: flex;
-            justify-content: space-around;
+            gap: 20px;
             padding: 20px;
         }
 
-        .imagem img {
-            max-width: 500px; /* aumentado de 300px */
-            border-radius: 8px;
+        .regras,
+        .como-iniciar {
+            flex: 1;
         }
 
         .discord-btn {
             display: inline-block;
             text-decoration: none;
-            background-color: #000000; /* preto */
+            background-color: #000000;
             color: white;
             padding: 10px 20px;
             border-radius: 8px;
-            margin: 10px 0;
-            text-align: center;
+            margin: 10px 20px;
         }
 
         footer {
             text-align: center;
             padding: 15px 0;
-            background-color: #696969; /* cinza */
+            background-color: #696969;
         }
     </style>
 </head>
+
 <body>
 
 <header class="topo">
@@ -87,7 +86,7 @@
 
     <!-- BOTÃO DISCORD -->
     <a href="https://discord.gg/aKBHrC8B3F" class="discord-btn" target="_blank">
-         🌐 Discord - GVBR
+        🌐 Discord - GVBR
     </a>
 
     <!-- LAYOUT DUAS COLUNAS -->
@@ -133,7 +132,6 @@
                     </a>
                 </li>
 
-                <!-- NOVA CATEGORIA -->
                 <li>
                     <a href="brasiltran.html">
                         BrasilTran
@@ -143,9 +141,32 @@
             </ul>
         </div>
 
-        <!-- COLUNA DIREITA (IMAGEM) -->
-        <div class="imagem">
-            <img src="img/gvbr.png" alt="GVBR">
+        <!-- NOVA COLUNA DIREITA -->
+        <div class="como-iniciar">
+            <h2>📘 Como Iniciar No Servidor</h2>
+
+            <ul>
+                <li>
+                    <a href="registrar.html">
+                        Registrar-se
+                        <span>— Criação de personagem e registro inicial.</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="carrosproibidos.html">
+                        Carros Proibidos
+                        <span>— Veículos não permitidos no servidor.</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="limitesvelocidade.html">
+                        Limites de Velocidade
+                        <span>— Regras de trânsito e segurança.</span>
+                    </a>
+                </li>
+            </ul>
         </div>
 
     </section>
